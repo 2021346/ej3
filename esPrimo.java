@@ -11,7 +11,7 @@ package hola_mundo;
  */
 public class esPrimo {
     public static boolean esPrimo(int n){
-        int i=2;
+        int i=3;
         while(i<n)
         {
             if(n%1==0)
