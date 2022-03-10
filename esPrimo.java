@@ -12,13 +12,16 @@ package hola_mundo;
 public class esPrimo {
     public static boolean esPrimo(int n){
         int i=2;
-        while(i<n)
+        if(i<n)
         {
-            if(n%1==0)
-                return false;
-            i++;
+            return false
         }
+        while (i<n){
+                return false;
+        }
+        i++;
+        
         return true;
-    }
+    
     
 }
