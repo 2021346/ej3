@@ -13,6 +13,7 @@ public class esPrimo {
     public static boolean esPrimo(int n){
         int i=2;
         if(i<n)
+
         {
             return false
         }
